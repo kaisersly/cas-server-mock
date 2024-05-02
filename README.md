@@ -6,6 +6,14 @@ This fork adds two new security arguments:
 
 Also, if the password is valid and the user doesn't appear in the database, a user with no attributes is returned.
 
+# Docker
+
+A Docker image is now available. Those environment variables are available:
+- PORT: listening port
+- DATABASE: (REQUIRED) path to the users database json file
+- KEY: (REQUIRED) 16 characters-long string
+- PASSWORD: (REQUIRED) any length string
+
 # Apereo CAS simple server mock
 
 Really simple basic mock for [Apereo CAS server](https://www.apereo.org/projects/cas). This should not be used in production environment, it is just for test purpose, nothing more.
